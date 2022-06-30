@@ -1,0 +1,44 @@
+@keyframes upDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  25% {
+    opacity: 0.25;
+    transform: translateY(-50px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-25px);
+  }
+  75% {
+    opacity: 0.75;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#signup {
+  animation: upDown 1s 0.5s 1 linear;
+  margin-top: 10px;
+  padding: 20px 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border: 1px solid#00ba83;
+  border-radius: 5px;
+}
+
+.btn-signup {
+  background-color: #00ba83;
+}
+.btn-signup:hover {
+  background-color: #7bcfb6;
+}
+
+@media screen and (min-width: 720px) {
+  #signup {
+    align-items: center;
+    width: 500px;
+  }
+}

@@ -1,0 +1,143 @@
+.color-nav {
+  background: #84c225;
+  display: flex;
+}
+/* .nav2 {
+  justify-content: flex-end;
+} */
+@keyframes bounceInDown {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  25% {
+    width: 25px;
+    opacity: 0.25;
+  }
+  50% {
+    width: 50px;
+    opacity: 0.5;
+  }
+  75% {
+    width: 75px;
+    opacity: 0.75;
+  }
+  100% {
+    width: 100px;
+    opacity: 1;
+  }
+}
+@keyframes big {
+  0% {
+    font-size: 0px;
+  }
+  25% {
+    font-size: 5px;
+  }
+  50% {
+    font-size: 10px;
+  }
+  75% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 25px;
+  }
+}
+
+.section1 {
+  animation: big 0.5s 1;
+  font-size: 30px;
+
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 2px;
+}
+.section2 {
+  color: #ffffff;
+
+  font-weight: 600;
+}
+@keyframes big-icon {
+  0% {
+    width: 50px;
+    height: 10px;
+  }
+  25% {
+    width: 70px;
+    height: 20px;
+  }
+  50% {
+    width: 90px;
+    height: 25px;
+  }
+  75% {
+    width: 150px;
+    height: 45px;
+  }
+  100% {
+    width: 180px;
+    height: 50px;
+  }
+}
+.main-icon {
+  animation: big-icon 1s 1 linear;
+  width: 180px;
+  height: 50px;
+}
+.navbar-brand {
+  max-width: 75px;
+  max-height: 75px;
+  /* background-color: #fff4c5; */
+  text-decoration: none;
+  padding: 0px;
+  color: #00ba83;
+  border-radius: 10%;
+}
+#navbar-brand:hover {
+  color: #39ebb5;
+}
+
+#nav-link {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.icon {
+  margin-top: 0px;
+  max-width: 20px;
+}
+.cart {
+  margin-top: 0px;
+  max-width: 18px;
+  position: relative;
+}
+
+.cart-icon {
+  margin-left: 10px;
+  margin-top: 6px;
+  width: 45px;
+  height: 40px;
+  color: #ff2323;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.cart-badge {
+  position: absolute;
+  font-weight: bold;
+  top: -8px;
+  left: 45px;
+  background-color: #d70000;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 5px;
+  font-size: 11px;
+  /* margin-left: 25px; */
+  /* margin-top: -25px; */
+}
+#nav-link:hover {
+  color: #007557;
+}
