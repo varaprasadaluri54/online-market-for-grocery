@@ -8,13 +8,7 @@ import TwoSections from "../../components/twosections/TwoSections";
 import { google, outlook, office365, yahoo, ics } from "calendar-link";
 
 export function Home() {
-  const event = {
-    title: "My birthday party",
-    description: "Be there!",
-    start: "2019-12-29 18:00:00 +0100",
-    duration: [3, "hour"],
-  };
-  console.log(google(event));
+ 
   return (
     <div>
       <Header />

@@ -1,15 +1,39 @@
 #login {
   animation: upDown 1s 0.5s 1 linear;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 20px;
-  padding: 20px 50px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* padding: 20px 50px; */
+  /* max-width: 100%;
+  width: 100%;
+  height: 100%; */
+
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border: 1px solid #00ba83;
-  border-radius: 5px;
+  border-radius: 5px; */
+  /* display: flex; */
+  /* background-image: url(../../images/Login1.svg); */
+  /* background-size: 1000px; */
+  /* background-repeat: no-repeat; */
+
+  /* background-position: left; */
 }
-.personImg {
+
+.titlelogin {
+  font-weight: 500;
+}
+.container1 {
+  /* width: 300px; */
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+/* .personImg {
   max-width: 100px;
-}
+} */
 .title {
   color: #84c225;
 }
@@ -28,9 +52,9 @@
   background-color: #7bcfb6;
 }
 
-@media screen and (min-width: 720px) {
+/* @media screen and (min-width: 720px) {
   #login {
     align-items: center;
     width: 500px;
   }
-}
+} */

@@ -141,3 +141,12 @@
 #nav-link:hover {
   color: #007557;
 }
+
+.color-nav:hover {
+  transition: all 0.5s ease-in-out;
+  /* z-index: 1;
+  background: linear-gradient(to bottom right, #fcfeff, #8a8be9);
+  background: -moz-linear-gradient(top left, #fcfeff, #8a8be9);
+  background: -webkit-linear-gradient(top left, #fcfeff, #8a8be9); */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
