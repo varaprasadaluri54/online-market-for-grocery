@@ -67,7 +67,7 @@ export function Header() {
             </Nav>
             <Nav id="nav">
               <Button
-                variant="outline-light"
+                // variant="outline-light"
                 className="m-2"
                 onClick={handleOnClick}
               >
